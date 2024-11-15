@@ -2117,7 +2117,7 @@ MonoBehaviour:
     originalRotation: {x: 0, y: 0, z: 0, w: 0}
     originalScale: {x: 0, y: 0, z: 0}
   - targetObject: {fileID: 550072504}
-    linkedObject: {fileID: 1648878040}
+    linkedObject: {fileID: 1916711636}
     isTrigger: 0
     changePosition: 1
     position: {x: 6.259, y: 3.5, z: 6.972}
@@ -2367,7 +2367,7 @@ GameObject:
   - component: {fileID: 1648878042}
   - component: {fileID: 1648878041}
   m_Layer: 0
-  m_Name: Lever2
+  m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2453,11 +2453,11 @@ Transform:
   m_GameObject: {fileID: 1648878040}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.0000000018626449, w: 1}
-  m_LocalPosition: {x: 21.876, y: 8.653, z: -0.968}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.3944018, y: 0.8142136, z: 0.50430125}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1916711637}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1714046469
 GameObject:
@@ -2923,6 +2923,38 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1916014457}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1916711636
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1916711637}
+  m_Layer: 0
+  m_Name: Lever2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1916711637
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916711636}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 21.876, y: 8.653, z: -0.968}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1648878044}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1979352518
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3659,4 +3691,4 @@ SceneRoots:
   - {fileID: 559163092}
   - {fileID: 1032405034}
   - {fileID: 550072508}
-  - {fileID: 1648878044}
+  - {fileID: 1916711637}
